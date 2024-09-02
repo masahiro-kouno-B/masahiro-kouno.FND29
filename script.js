@@ -13,9 +13,10 @@
 //   }
 
  
-const switchKey = document.querySelector('.switch-key');
+const switchKey = document.querySelectorAll('.switch-key');
 
 document.addEventListener('mousemove', (event) => {
+    switchKey.forEach(switchKey => {
     const rect = switchKey.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
@@ -36,4 +37,5 @@ document.addEventListener('mousemove', (event) => {
 
   
 
+});
   
