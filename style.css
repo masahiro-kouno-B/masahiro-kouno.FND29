@@ -37,7 +37,9 @@
       /* text-align:center; */
       }
 img {
-        width: 60%;                /* 画像サイズ指定 */
+        /* width: 60%;     */
+        width:150px;
+        height:150px;         /* 画像サイズ指定 */
     }
   
 .flex_test-item:nth-child(1){
@@ -167,7 +169,9 @@ img {
               /* text-align:center; */
               }
         img {
-                width: 80%;                /* 画像サイズ指定 */
+                /* width: 80%;                画像サイズ指定 */
+                width:150px;
+                height:150px;
             }        
         .flex_test-item2:nth-child(1){
               
